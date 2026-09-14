@@ -1,0 +1,21 @@
+# This root .gitignore only catches root-level stragglers — backend/
+# and mobile/ each have their own detailed, subtree-specific .gitignore
+# (both apply automatically; git combines .gitignore files at every
+# directory level).
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+
+# Never commit a real .env from any location
+.env
+.env.local
+.env.*.local
