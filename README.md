@@ -21,6 +21,32 @@ Each app is independent (own `package.json`, own dependencies) — this is a pla
 - Loading, empty, and error states on the task list; confirmation dialog before delete
 - Global, consistent API error shape; client-side validation mirrors the server's rules so bad input is caught before a request is even sent
 
+## Application screenshots
+
+Captured on a physical Android device, running against the live backend over `adb reverse` (see [Known limitations](#known-limitations)).
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="docs/screenshots/01-login.png" alt="Login screen" width="260"><br>
+      <b>Login</b><br>
+      Email/password sign-in, with inline validation before any request is sent.
+    </td>
+    <td align="center" width="33%">
+      <img src="docs/screenshots/03-task-list.png" alt="Task list screen" width="260"><br>
+      <b>Task List</b><br>
+      Status/priority filters, sort options, priority badges, and deadline display — one task shown completed (checked, strikethrough).
+    </td>
+    <td align="center" width="33%">
+      <img src="docs/screenshots/04-add-task.png" alt="Add task screen" width="260"><br>
+      <b>Add Task</b><br>
+      Title, description, scheduled date/time, deadline, priority selector, and category — all validated client-side.
+    </td>
+  </tr>
+</table>
+
+> Register, Task Detail/Edit, and Profile screenshots to follow — the numbering (`01`, `03`, `04`) intentionally leaves room for `02-register.png` and `05-task-details.png` / `06-profile.png` to be added later without renaming the existing files.
+
 ## Tech stack
 
 | Layer | Choice |
