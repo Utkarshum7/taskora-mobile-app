@@ -1,6 +1,6 @@
-# Modulus17 To-Do
+# taskora-application
 
-A full-stack To-Do application built for the Modulus17 Full Stack Developer (React Native) assignment: a React Native CLI (TypeScript) Android app backed by a NestJS + MongoDB API, with email/password authentication and complete task management.
+A full-stack application: a React Native CLI (TypeScript) Android app backed by a NestJS + MongoDB API, with email/password authentication and complete task management.
 
 ## Overview
 
